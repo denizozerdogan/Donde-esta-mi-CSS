@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(211, 205, 233);
+}
+
+
+
+.card {
+    display: flex; 
+    font-family: sans-serif;
+    color: black; 
+    flex-wrap: nowrap;
+    margin-top: 50px ;
+    margin-left: 550px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: nowrap;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title {
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+
+.google-btn {
+    display: flex;
+    width: 270px;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-right: 0;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.google-btn img {
+    width: 25px;
+    margin-left: 50px;
+}
+
+.btn-text{
+    white-space: nowrap;
+    font-size: 12px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.email-login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: lightgray;
+    margin-top: -10px;
+    
+}
+
+.fb-btn  {
+    display: flex;
+    height: 50px;
+    width: 80px;  
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center; 
+    padding: 0px;
+    background-color: white;
+    border: 2px solid blue;
+    margin-right: 110px;
+    margin-left: -10px;
+}
+
+.fb-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #DAD2BC;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+input {
+    border-radius: 8px;
+    height: 40px;
+    text-indent:18px;
+    color: color rgb(170, 167, 167);
+    font-size: 12px;
+}
+
+
+.or {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    font-size: 14px;
+}
+
+.or::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    left: 25px;
+    top: 9px;
+    background-color: lightgrey;
+}
+
+.or::after{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    right: 25px;
+    top: 9px;
+    background-color: lightgrey;
+}
+
+.forget-pass {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+label {
+    font-size: 14px;
+    color: rgb(170, 167, 167);
+    margin-top: -5px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+
+
